@@ -3,9 +3,9 @@ MAINTAINER Feng Honglin <hfeng@tutum.co>
 
 RUN apt-get update && \
     apt-get install -y pwgen && \
-    wget -q http://download.jboss.org/jbossas/7.1/jboss-as-7.1.1.Final/jboss-as-7.1.1.Final.tar.gz && \
-    tar zxf jboss-as-7.1.1.Final.tar.gz && \
-    rm jboss-as-7.1.1.Final.tar.gz && \
+    wget -q http://download.jboss.org/jbossas/7.1/jboss-as-7.1.0.Final/jboss-as-7.1.0.Final.tar.gz && \
+    tar zxf jboss-as-7.1.0.Final.tar.gz && \
+    rm jboss-as-7.1.0.Final.tar.gz && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
